@@ -1,0 +1,14 @@
+development:
+  adapter: sqlite3
+  database: film_api_dev
+
+test:
+  adapter: sqlite3
+  database: film_api_test
+
+production:
+  adapter: postgresql
+  database: mission
+  username: username
+  password: password
+  host: localhost
