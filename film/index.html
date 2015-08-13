@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Film Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+        <h2>Search Movies</h2>
+          <div id="custom-search-input">
+            <div class="input-group col-md-12" id="titleForm">
+              <form id="title">
+                <input type="text" class="form-control input-lg movie-title" name="title" placeholder="Movie Title" />
+              </form>
+              <span class="input-group-btn">
+                <button class="btn btn-info btn-lg" onclick="searchMovies()" type="button">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+
+      <div class="all-movie page">
+
+      </div>
+
+      <div class="single-movie page">
+
+      </div>
+
+      <div class="error page">
+        <!-- <h3>Sorry, something went wrong :(</h3> -->
+      </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
